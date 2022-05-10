@@ -12,8 +12,10 @@ const HomeScreen = ({navigation}) => {
     <TouchableOpacity onPress={() => navigation.navigate('ImageScreen')}><Text>Go to Image Demo</Text></TouchableOpacity>
     <TouchableOpacity onPress={() => navigation.navigate('ImageScreenExercise')}><Text>Go to Image Demo Exercise</Text></TouchableOpacity>
     <TouchableOpacity onPress={() => navigation.navigate('CounterApp')}><Text>Go to Counter App Demo</Text></TouchableOpacity>
+    <TouchableOpacity onPress={() => navigation.navigate('ExCounterApp')}><Text>Go to Counter App Using Reducer</Text></TouchableOpacity>
     <TouchableOpacity onPress={() => navigation.navigate('ColorApp')}><Text>Go to Color App Demo</Text></TouchableOpacity>
     <TouchableOpacity onPress={() => navigation.navigate('SquareScreen')}><Text>Go to SquareScreen Demo</Text></TouchableOpacity>
+    <TouchableOpacity onPress={() => navigation.navigate('TextScreen')}><Text>Go to TextScreen Demo</Text></TouchableOpacity>
     </View>
   </View>
 };
