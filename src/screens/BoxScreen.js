@@ -15,10 +15,12 @@ export default BoxScreen
 
 const styles = StyleSheet.create({
     viewStyle: {
+      height:200,
         borderWidth:3,
         borderColor:'black',
         alignItems: 'stretch',
-        flexDirection: 'row'
+        flexDirection: 'column',
+        justifyContent: 'center'
     },
     textStyle: {
         borderWidth:3,

@@ -5,7 +5,7 @@ const HomeScreen = ({navigation}) => {
   return <View>
     <Text style={styles.text}>Hi there!</Text>
     {/* <Button title='Go to Components Demo' onPress={() => navigation.navigate('List')} /> */}
-    <View style={{margin:15,alignItems:'center'}}>
+    <View style={{margin:15,alignItems:'center',height:'80%',justifyContent: 'space-around',borderWidth:1,}}>
     <TouchableOpacity onPress={() => navigation.navigate('Component')}><Text>Go to Compent</Text></TouchableOpacity>
     <TouchableOpacity onPress={() => navigation.navigate('List')}><Text>Go to List Demo</Text></TouchableOpacity>
     <TouchableOpacity onPress={() => navigation.navigate('ExList')}><Text>Go to Exercise List Demo</Text></TouchableOpacity>
