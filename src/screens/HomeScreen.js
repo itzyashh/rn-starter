@@ -16,13 +16,14 @@ const HomeScreen = ({navigation}) => {
     <TouchableOpacity onPress={() => navigation.navigate('ColorApp')}><Text>Go to Color App Demo</Text></TouchableOpacity>
     <TouchableOpacity onPress={() => navigation.navigate('SquareScreen')}><Text>Go to SquareScreen Demo</Text></TouchableOpacity>
     <TouchableOpacity onPress={() => navigation.navigate('TextScreen')}><Text>Go to TextScreen Demo</Text></TouchableOpacity>
+    <TouchableOpacity onPress={() => navigation.navigate('BoxScreen')}><Text>Go to BoxScreen Demo</Text></TouchableOpacity>
     </View>
   </View>
 };
 
 const styles = StyleSheet.create({
   text: {
-
+    padding: 5,
     fontSize: 30,
   },
 });
